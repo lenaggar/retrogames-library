@@ -1,0 +1,34 @@
+{
+  "name": "retrogames-library",
+  "version": "1.0.0",
+  "description":
+    "a single page aplication with react, redux, mongo, node, express",
+  "main": "server.js",
+  "repository": "https://github.com/lenaggar/retrogames-library.git",
+  "author": "Mahmoud <naggar218@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "api": "babel-node server.js",
+    "test": "eslint . --ignore-path .gitignore & jest --coverage"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-compat": "^1.0.4",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.1.0",
+    "jest": "^21.2.0"
+  },
+  "browserslist": ["> 1%"]
+}
